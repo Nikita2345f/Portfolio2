@@ -1,0 +1,221 @@
+body{
+    background: #f1ecec;                /* задний фон всего сайта*/
+}
+aside {
+    float: left;                /* блок будет слева */
+    background: #313030;        /* задний фон */
+    width: 18%;                 /* ширина  */
+    padding: 2%;              /*  отступ внутрений */
+    height: 100vh;              /*  высота блока  */
+    color: #f2e6e6;              /*  цвет текста блока */
+    border-right: 5px solid #403333; 
+       /*  обводка по правой стороне */
+    
+}
+aside img {
+    width: 95px;   /* ширина  */
+    float: left;    /*  нахождение картинки */
+    position: relative; /*  картинка в стороны */
+    left: -20px;
+}
+aside .Logo {
+    font-size: 35px;        /* размер шрифта  */
+    margin-left:-30px;      /* отступ с левой стороны  */
+    font-weight: bold;      /* жирный шрифт  */
+    position: relative;      /* текст в стороны */
+    top: 16px;       
+    color: #fdfdfd;       
+}
+aside .Logo1 {
+    color:#d80909;
+    font-size: 35px;        /* размер шрифта  */
+    margin-left: 134px;      /* отступ с левой стороны  */
+    font-weight: bold;      /* жирный шрифт  */
+    position: relative;      /* текст в стороны */
+    top: -78px;    
+}         
+aside h3 {
+    margin-top: 90px;        /* отступ сверху */
+    font-size: 23px;         /* размер шрифта */
+}
+aside ul {list-style: none;}   /* стиль для навигации  кружечки у списка убрались*/
+aside ul li{
+    text-decoration: rgb(255, 255, 255);
+    color: #ffffff;          /* цвет */
+    display:  block;             /* тип элемента */
+    margin-top:  20px;           /* отступ сверху */
+    margin-left: -15px;
+    transition: transform .4s ease;    /* текст увеличивается в течении 0.4 сек / сглаживание*/
+}
+a {
+    text-decoration: none;  /* убирает подчеркивание с ссылок */
+}
+aside ul li:hover, aside ul a:hover {        /* эфект при наведении */
+    color: #f7f3f3;                          /* цвет  при навождении*/
+    text-decoration: none;                   /* текст декорации */
+    transform: scale(1.05);                  /* увеличение текста при навождении */
+}
+main .Futhe {
+    float: left;
+    color: #0e0d0d;
+    margin-top: 50px;
+    text-align: center;
+    width: 75%;
+}
+main .Futhe h1 {font-size: 50px;}
+main .Futhe p {
+    max-width: 1200px;
+    margin: 25px auto;
+    margin-left: 10px;
+    font-size: 20px;
+}
+main .Futhe img{
+    width: 600px;   /* ширина  */
+    float: right;    /*  нахождение картинки */
+    left: -20px;
+    margin-top: 10px;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.8);
+    transform: perspective(600px) rotateY(-30deg); /* Задаем перспективу и угол наклона по горизонтали */
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+main .fact {
+    float: left;
+    color: #0a0a0a;
+    margin-top: 80px;
+    text-align: left;
+    width: 75%;
+}
+main .fact h1 {font-size: 45px; margin-left: 15px;margin-top: -38px;}
+main .fact p {
+    max-width: 1000px;
+    margin: 20px auto;
+   font-size: 19px;
+    margin-left: 30px;
+}
+main .fact a{
+    margin-left: 40px;
+}
+
+
+main .News {
+    float: left;
+    color: #fdfdfd;
+    margin-top: 60px;
+    text-align: left;
+    width: 60%;
+    margin-left: 35px;
+    
+}
+main .News h1 {font-size: 50px;color: #0a0a0a;}
+main .News p {max-width: 400px; margin: 20px auto; margin-left: 15px;color: #0a0a0a;}
+
+
+main .Form_s{
+    margin-left: 250px;
+}
+main .Form_s h1 {
+    font-size: 35px;
+    text-align: center;
+}
+form {
+    margin-left: 23%;
+    width: 70%; /* Установите желаемую ширину формы */
+    margin: 0 auto; /* Центрируйте форму по горизонтали */
+    border: 2px solid #464343; /* Установите ширину и цвет границы */
+    padding: 20px; /* Добавьте отступы внутри формы, чтобы контент не сливался с границей */
+    border-radius: 10px; /* Добавьте скругленные углы для более стильного вида */
+}
+.my-form input,
+.my-form textarea,
+.my-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease-in-out; /* Плавные переходы при изменении цвета фона */
+}
+
+.my-form input:focus,
+.my-form textarea:focus,
+.my-form select:focus {
+    background-color: #f0f0f0;
+}
+
+main .Cont{margin-left: 300px; max-width: 1000px;}
+main .Cont h2{ margin-top: 30px; font-size: 21px;}
+main .Cont h1{font-size: 35px;  margin-left: 15px;}
+main .Cont p{font-size: 19px; margin-top: 20px;}
+main .Cont h3{font-size: 19px; margin-left: 391px; font-weight: normal; }
+main .Cont h4{font-size: 19px; margin-left: 391px; font-weight: normal; }
+
+main .Cont .arrow-with-text {
+    display: flex;
+    align-items: center;
+    margin-top: -190px;
+    margin-left: 530px;
+  }
+  
+main .Cont  .arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid #333; /* Цвет стрелки */
+    margin-right: 10px;
+  }
+  
+main .Cont  .text {
+    font-size: 18px; /* Размер текста */
+    font-weight: bold;
+    color: #333; /* Цвет текста */
+  }
+main .Cont  .kont-wi-txt {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 530px;
+  }
+  
+main .Cont .kont {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid #333; /* Цвет стрелки */
+    margin-right: 10px;
+  }
+  
+main .Cont  .txt {
+    font-size: 18px; /* Размер текста */
+    font-weight: bold;
+    color: #333; /* Цвет текста */
+  }
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+main .Cont img{
+    width: 250px;   /* ширина  */
+    float: left;    /*  нахождение картинки */
+    margin-left: 34px;
+    margin-top: 130px;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    border: 2px solid #e74c3c;
+    mix-blend-mode: multiply;
+    transition: transform 0.3s ease-in-out;
+    animation: pulse 2s infinite;
+    transition: filter 0.5s ease-in-out;
+
+}
+main .Cont img:hover {
+    transform: scale(1.1);
+    filter: hue-rotate(90deg);
+    
+}

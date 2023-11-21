@@ -1,0 +1,40 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+    
+{% block title %}
+    Контакты
+{% endblock %}
+
+{% block content %}
+    <div class="Cont">
+        <h1>Контакты</h1> 
+        <p>
+            Приветствуем вас на странице контактов! Мы ценим ваш интерес к нашему проекту и всегда готовы к общению. Если у вас есть вопросы, предложения или просто хочется поделиться своим мнением, не стесняйтесь связаться с нами.
+        </p>
+        <h2>
+            Электронная почта:
+        </h2>
+        <p>
+            Общие вопросы и Техническая поддержка :   <a href="mailto:st.niki51@gmail.com">Написать нам</a> 
+        </p>
+        <h3>
+            <a href="https://t.me/Nikita29w">Написать нам </a>
+        </h3>
+        <h4>
+            <a href="https://github.com/Nikita2345f">Cсылка на github</a>
+        </h4>
+        <p>
+            Не стесняйтесь связаться с нами в любое удобное для вас время. Мы ценим ваше внимание и готовы поддержать вас в любых вопросах. Спасибо за ваш интерес к нашему проекту!
+        </p>
+        <div class="arrow-with-text">
+            <div class="arrow"></div>
+            <div class="text">Gmail</div>
+        </div>
+        <div class="kont-wi-txt">
+            <div class="kont"></div>
+            <div class="txt">Telegram</div>
+        </div>  
+        <img src="{% static 'main/img/sms1.jpg' %}" alt="Contr">
+    </div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends 'main/layout.html' %}
+    
+{% block title %}
+    Добавить новость
+{% endblock %}
+
+{% block content %}
+    <div class="Form_s">
+        <h1>Форма по добавлению новости на сайт</h1>
+        <form method="post", class = my-form>
+            {% csrf_token %}
+
+            {{ form.title }}<br>
+            {{ form.anons }}<br>
+            {{ form.stt }}<br>
+            <p>Пример даты: 2025-11-24 10:15</p>
+            {{ form.date }}<br>
+            <span>{{ error }}</span>
+            <button class=" btn btn-success", type="sumbit">Добавить статью</button>
+
+        </form>
+    </div>
+{% endblock %}
